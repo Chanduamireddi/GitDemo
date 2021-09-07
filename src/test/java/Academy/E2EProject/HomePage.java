@@ -42,6 +42,9 @@ public class HomePage extends Base{
 		
 		lop.clickLogin().click();
 		
+		System.out.println("Git Demo Test");
+		System.out.println("Git Demo Test2");
+		
 	}
 	@DataProvider
 	public Object[][] getData()
