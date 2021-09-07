@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="validate user login">
+    <classes>
+      <class name="Academy.E2EProject.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="validate page title">
+    <classes>
+      <class name="Academy.E2EProject.validatePageTitle"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="validate top Nav bar">
+    <classes>
+      <class name="Academy.E2EProject.validateTopNavBar"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
