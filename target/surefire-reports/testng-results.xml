@@ -1,95 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="66230" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:10 IST">
+  <suite name="Suite" duration-ms="20608" started-at="2021-09-08T11:14:58 IST" finished-at="2021-09-08T11:15:19 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4bbfb90a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="validate page title" duration-ms="63932" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:07 IST">
-      <class name="Academy.E2EProject.validatePageTitle">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:Academy.E2EProject.validatePageTitle@694abbdc]" name="initializeBrowser" is-config="true" duration-ms="63123" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:06 IST">
+    <test name="Validating user login" duration-ms="20608" started-at="2021-09-08T11:14:58 IST" finished-at="2021-09-08T11:15:19 IST">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@4bbfb90a]" name="setUpClass" is-config="true" duration-ms="190" started-at="2021-09-08T11:14:58 IST" finished-at="2021-09-08T11:14:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="valSectitle()[pri:0, instance:Academy.E2EProject.validatePageTitle@694abbdc]" name="valSectitle" duration-ms="83" started-at="2021-08-08T22:38:06 IST" finished-at="2021-08-08T22:38:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valSectitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.validatePageTitle@694abbdc]" name="teardown" is-config="true" duration-ms="700" started-at="2021-08-08T22:38:07 IST" finished-at="2021-08-08T22:38:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.E2EProject.validatePageTitle -->
-    </test> <!-- validate page title -->
-    <test name="validate user login" duration-ms="65607" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:09 IST">
-      <class name="Academy.E2EProject.HomePage">
-        <test-method status="PASS" signature="initializeBrow()[pri:0, instance:Academy.E2EProject.HomePage@20deea7f]" name="initializeBrow" is-config="true" duration-ms="5205" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:37:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrow -->
-        <test-method status="PASS" signature="basePageNav(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@20deea7f]" name="basePageNav" duration-ms="54095" started-at="2021-08-08T22:37:09 IST" data-provider="getData" finished-at="2021-08-08T22:38:03 IST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4bbfb90a]" name="feature" duration-ms="20321" started-at="2021-09-08T11:14:58 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-08T11:15:19 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[nonrestricteduser@qa.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234567]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Restricted user]]>
+                <![CDATA[Login to Application]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNav -->
-        <test-method status="PASS" signature="basePageNav(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@20deea7f]" name="basePageNav" duration-ms="5589" started-at="2021-08-08T22:38:03 IST" data-provider="getData" finished-at="2021-08-08T22:38:08 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[restricteduser@qa.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3456789]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Non Restricted user]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@4bbfb90a]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2021-09-08T11:15:19 IST" finished-at="2021-09-08T11:15:19 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNav -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@20deea7f]" name="teardown" is-config="true" duration-ms="648" started-at="2021-08-08T22:38:08 IST" finished-at="2021-08-08T22:38:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.E2EProject.HomePage -->
-    </test> <!-- validate user login -->
-    <test name="validate top Nav bar" duration-ms="66230" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:10 IST">
-      <class name="Academy.E2EProject.validateTopNavBar">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:Academy.E2EProject.validateTopNavBar@4f18837a]" name="initializeBrowser" is-config="true" duration-ms="65408" started-at="2021-08-08T22:37:03 IST" finished-at="2021-08-08T22:38:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="valTopNavBar()[pri:0, instance:Academy.E2EProject.validateTopNavBar@4f18837a]" name="valTopNavBar" duration-ms="131" started-at="2021-08-08T22:38:09 IST" finished-at="2021-08-08T22:38:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valTopNavBar -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.validateTopNavBar@4f18837a]" name="teardown" is-config="true" duration-ms="671" started-at="2021-08-08T22:38:09 IST" finished-at="2021-08-08T22:38:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Academy.E2EProject.validateTopNavBar -->
-    </test> <!-- validate top Nav bar -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validating user login -->
   </suite> <!-- Suite -->
 </testng-results>
