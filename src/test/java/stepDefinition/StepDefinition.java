@@ -39,7 +39,8 @@ public class StepDefinition extends Base {
     public void user_lands_on_landing_page() throws Throwable {
     	
     	System.out.println("User landed on landing page");
-	System.out.println("User landed on landing page2");
+	    System.out.println("User landed on landing page2");
+        System.out.println("User landed on landing page3");
         
     }
 
