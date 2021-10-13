@@ -1,3 +1,6 @@
-Academy\E2EProject\validateTopNavBar.class
 Academy\E2EProject\validatePageTitle.class
+cucumberOptions\TestRunner.class
+Academy\E2EProject\listeners.class
+Academy\E2EProject\validateTopNavBar.class
+stepDefinition\StepDefinition.class
 Academy\E2EProject\HomePage.class

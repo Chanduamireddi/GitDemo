@@ -1,4 +1,66 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.091 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.317 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestRunner.feature[Login to Application](1)  Time elapsed: 7.073 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA5843+2512963]
+	Ordinal0 [0x00C3EED1+2092753]
+	Ordinal0 [0x00B41F48+1056584]
+	Ordinal0 [0x00B601AA+1180074]
+	Ordinal0 [0x00B5C0C5+1163461]
+	Ordinal0 [0x00B5990F+1153295]
+	Ordinal0 [0x00B8994F+1349967]
+	Ordinal0 [0x00B895BA+1349050]
+	Ordinal0 [0x00B854BB+1332411]
+	Ordinal0 [0x00B61D14+1187092]
+	Ordinal0 [0x00B62B79+1190777]
+	GetHandleVerifier [0x00E20C56+1501718]
+	GetHandleVerifier [0x00ECE97F+2213695]
+	GetHandleVerifier [0x00D28C92+485970]
+	GetHandleVerifier [0x00D27D59+482073]
+	Ordinal0 [0x00C4471D+2115357]
+	Ordinal0 [0x00C48678+2131576]
+	Ordinal0 [0x00C487B2+2131890]
+	Ordinal0 [0x00C51971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA5843+2512963]
+	Ordinal0 [0x00C3EED1+2092753]
+	Ordinal0 [0x00B41F48+1056584]
+	Ordinal0 [0x00B601AA+1180074]
+	Ordinal0 [0x00B5C0C5+1163461]
+	Ordinal0 [0x00B5990F+1153295]
+	Ordinal0 [0x00B8994F+1349967]
+	Ordinal0 [0x00B895BA+1349050]
+	Ordinal0 [0x00B854BB+1332411]
+	Ordinal0 [0x00B61D14+1187092]
+	Ordinal0 [0x00B62B79+1190777]
+	GetHandleVerifier [0x00E20C56+1501718]
+	GetHandleVerifier [0x00ECE97F+2213695]
+	GetHandleVerifier [0x00D28C92+485970]
+	GetHandleVerifier [0x00D27D59+482073]
+	Ordinal0 [0x00C4471D+2115357]
+	Ordinal0 [0x00C48678+2131576]
+	Ordinal0 [0x00C487B2+2131890]
+	Ordinal0 [0x00C51971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+

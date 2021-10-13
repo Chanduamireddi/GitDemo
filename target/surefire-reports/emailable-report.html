@@ -9,10 +9,96 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Validating user login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,608</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Validating user login</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,345</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating user login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberOptions.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1631079898928</td><td rowspan="1">20321</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating user login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">cucumberOptions.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1634094183627</td><td rowspan="1">6997</td></tr></tbody>
 </table>
-<h2>Validating user login</h2><h3 id="m0">cucumberOptions.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Login to Application</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating user login</h2><h3 id="m0">cucumberOptions.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Login to Application</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA5843+2512963]
+	Ordinal0 [0x00C3EED1+2092753]
+	Ordinal0 [0x00B41F48+1056584]
+	Ordinal0 [0x00B601AA+1180074]
+	Ordinal0 [0x00B5C0C5+1163461]
+	Ordinal0 [0x00B5990F+1153295]
+	Ordinal0 [0x00B8994F+1349967]
+	Ordinal0 [0x00B895BA+1349050]
+	Ordinal0 [0x00B854BB+1332411]
+	Ordinal0 [0x00B61D14+1187092]
+	Ordinal0 [0x00B62B79+1190777]
+	GetHandleVerifier [0x00E20C56+1501718]
+	GetHandleVerifier [0x00ECE97F+2213695]
+	GetHandleVerifier [0x00D28C92+485970]
+	GetHandleVerifier [0x00D27D59+482073]
+	Ordinal0 [0x00C4471D+2115357]
+	Ordinal0 [0x00C48678+2131576]
+	Ordinal0 [0x00C487B2+2131890]
+	Ordinal0 [0x00C51971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA5843+2512963]
+	Ordinal0 [0x00C3EED1+2092753]
+	Ordinal0 [0x00B41F48+1056584]
+	Ordinal0 [0x00B601AA+1180074]
+	Ordinal0 [0x00B5C0C5+1163461]
+	Ordinal0 [0x00B5990F+1153295]
+	Ordinal0 [0x00B8994F+1349967]
+	Ordinal0 [0x00B895BA+1349050]
+	Ordinal0 [0x00B854BB+1332411]
+	Ordinal0 [0x00B61D14+1187092]
+	Ordinal0 [0x00B62B79+1190777]
+	GetHandleVerifier [0x00E20C56+1501718]
+	GetHandleVerifier [0x00ECE97F+2213695]
+	GetHandleVerifier [0x00D28C92+485970]
+	GetHandleVerifier [0x00D27D59+482073]
+	Ordinal0 [0x00C4471D+2115357]
+	Ordinal0 [0x00C48678+2131576]
+	Ordinal0 [0x00C487B2+2131890]
+	Ordinal0 [0x00C51971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at resources.Base.initializeDriver(Base.java:32)
+	at stepDefinition.StepDefinition.initialize_the_browser_with_chrome(StepDefinition.java:21)
+	at ✽.Given Initialize the browser with chrome(login.feature:4)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
