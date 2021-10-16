@@ -1,4 +1,103 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.465 s - in TestSuite
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 6.319 s <<< FAILURE! - in TestSuite
+Academy.E2EProject.validateTopNavBar.initializeBrowser  Time elapsed: 6.122 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.validateTopNavBar.initializeBrowser(validateTopNavBar.java:27)
+
+Academy.E2EProject.HomePage.initializeBrow  Time elapsed: 0.053 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.HomePage.initializeBrow(HomePage.java:23)
+
+Academy.E2EProject.validatePageTitle.initializeBrowser  Time elapsed: 0.054 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.validatePageTitle.initializeBrowser(validatePageTitle.java:26)
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="67.465" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.319" tests="10" errors="0" skipped="7" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -8,7 +8,7 @@
     <property name="webdriver.chrome.driver" value="D:\selenium\chromedriver_win32\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\eclipseworkspace\E2EProject\target\test-classes;D:\eclipseworkspace\E2EProject\target\classes;C:\Users\chand\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\chand\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\chand\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\chand\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\chand\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\chand\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\chand\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\chand\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\chand\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\chand\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\chand\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\chand\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\chand\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\chand\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\chand\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;"/>
+    <property name="java.class.path" value="C:\Users\chand\IdeaProjects\GitDemo\target\test-classes;C:\Users\chand\IdeaProjects\GitDemo\target\classes;C:\Users\chand\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\chand\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chand\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\chand\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\chand\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\chand\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\chand\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\chand\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\chand\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\chand\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\chand\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\chand\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\chand\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\chand\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\chand\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\chand\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -19,20 +19,20 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\chand\AppData\Local\Temp\surefire3026499805745478150\surefirebooter5858971310935024690.jar C:\Users\chand\AppData\Local\Temp\surefire3026499805745478150 2021-08-08T22-37-02_148-jvmRun1 surefire3120442539781408069tmp surefire_03452571955095320272tmp"/>
-    <property name="surefire.test.class.path" value="D:\eclipseworkspace\E2EProject\target\test-classes;D:\eclipseworkspace\E2EProject\target\classes;C:\Users\chand\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\chand\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\chand\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\chand\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\chand\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\chand\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\chand\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\chand\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\chand\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\chand\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\chand\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\chand\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\chand\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\chand\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\chand\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;"/>
+    <property name="sun.java.command" value="C:\Users\chand\AppData\Local\Temp\surefire408305125185048962\surefirebooter4852097793355313481.jar C:\Users\chand\AppData\Local\Temp\surefire408305125185048962 2021-10-16T16-17-13_530-jvmRun1 surefire581846941453822109tmp surefire_05380660024046027990tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\chand\IdeaProjects\GitDemo\target\test-classes;C:\Users\chand\IdeaProjects\GitDemo\target\classes;C:\Users\chand\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\chand\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\chand\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\chand\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\chand\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\chand\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\chand\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\chand\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\chand\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\chand\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\chand\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\chand\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\chand\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\chand\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\chand\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\chand\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\chand\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\chand\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\chand"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
-    <property name="basedir" value="D:\eclipseworkspace\E2EProject"/>
+    <property name="basedir" value="C:\Users\chand\IdeaProjects\GitDemo"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\chand\AppData\Local\Temp\surefire3026499805745478150\surefirebooter5858971310935024690.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\chand\AppData\Local\Temp\surefire408305125185048962\surefirebooter4852097793355313481.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,13 +47,14 @@
     <property name="localRepository" value="C:\Users\chand\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\chand\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.2"/>
     <property name="java.version" value="1.8.0_281"/>
-    <property name="user.dir" value="D:\eclipseworkspace\E2EProject"/>
+    <property name="user.dir" value="C:\Users\chand\IdeaProjects\GitDemo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Users\chand\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\chand\AppData\Local\Microsoft\WindowsApps;C:\Users\chand\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.281-b09"/>
@@ -61,33 +62,145 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="basePageNav[nonrestricteduser@qa.com, 1234567, Restricted user](1)" classname="Academy.E2EProject.HomePage" time="53.967">
+  <testcase name="initializeBrowser" classname="Academy.E2EProject.validateTopNavBar" time="6.122">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.validateTopNavBar.initializeBrowser(validateTopNavBar.java:27)
+]]></failure>
     <system-out><![CDATA[chrome
 chrome
 chrome
 ]]></system-out>
     <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 39229
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71St31a9r1t3i7n7g8 7Cchcreo-mreeDrfisv/ebrr a9n2c.h0-h.e4a5d1s5/.44531 5(@8{c#6310b67}e)2 9o8n9 fp2o9r9t0 d44121f98529ca
-cO7n1l3y1 9l1o3c7a7l 8c7ocncneec-trieofnss /abre arlloawnecd.h-
-hPelaedass/e4 51s5e@e{ #h3t0t6p}s):/ /ocnh rpomoerdtr i4v6e4r5.c
-hOrnloym iloucma.lo rcgo/nsneeccutriiotnys- caornsei daelrlaotwieodn.s
- Pfloera sseu gsgeees thitotnpss :/o/nc hkreoempeidnrigve r.cChrhormioumm.eoDrgr/isevcuerirt y-scoansfiede.rat
-ions for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Aug 08, 2021 10:37:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Aug 08, 2021 10:37:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Aug 08, 2021 10:37:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+SSStttaaarrrtttiiinnggn  gCC hhCrrohomrmeoeDmDrreiiDvrveeirvr  e9r92 2.9.020...4045.5114555.4.1345 3.(84 c3(6 81cb(768ec1269b8179bef722e99298909d894ff222f998995009dc4da24cf2781f538915c99acc1a7317c378711793c11c39e71-7r38e77fc7sc8/e7b-crrceaefn-sc/rbherfasnc-/hhb-rehaeanacddhss-/h4/e54a15d5s1@/{45#5@3105{6@#}{3)#0 30o66})} )no n o npp ooprrotrt t  431887655877921
+
+
+OOOnnnlllyyy   lllooocccaaall l c coconnnoennecncteticitoonins onsasr  eaa rrael elal olaowwleelddo..we
+
+dPP.llee
+aaPssle ees easees e eh htstettpeps s:/h:/t/cht/rocpmehsd:rrio/vm/erce.cdhhrrromioiummev.doerrirgve./rcs.echchrurormoiimutimyu.-mo.cororgng/s/siseedcceuurrriatityi-otcnyos-n csfooinrds eirsdauteigrognaset siftooinro nsssu  gogfneo srk tesieopunigsng go enCs htkrieeoopnmiesnD gro inCvh erkreo emspeaDifner.gi vC
+erh rsoamfeeD.riv
+er safe.
+CCChhhrrrooommmeeDDerrDiivrveerr  wiwavasse  rss ttwaaarrstt esedtd sa urtscecuedcs csesfuuslsclfycu.lel
+sy.s
+fully.
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNav[restricteduser@qa.com, 3456789, Non Restricted user](2)" classname="Academy.E2EProject.HomePage" time="1.813"/>
-  <testcase name="valSectitle" classname="Academy.E2EProject.validatePageTitle" time="0.082"/>
-  <testcase name="valTopNavBar" classname="Academy.E2EProject.validateTopNavBar" time="0.131"/>
+  <testcase name="valTopNavBar" classname="Academy.E2EProject.validateTopNavBar" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="teardown" classname="Academy.E2EProject.validateTopNavBar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializeBrow" classname="Academy.E2EProject.HomePage" time="0.053">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.HomePage.initializeBrow(HomePage.java:23)
+]]></failure>
+  </testcase>
+  <testcase name="basePageNav[nonrestricteduser@qa.com, 1234567, Restricted user](1)" classname="Academy.E2EProject.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="basePageNav[restricteduser@qa.com, 3456789, Non Restricted user](2)" classname="Academy.E2EProject.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="teardown" classname="Academy.E2EProject.HomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializeBrowser" classname="Academy.E2EProject.validatePageTitle" time="0.054">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-40EPTFGM', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB5843+2512963]
+	Ordinal0 [0x00B4EED1+2092753]
+	Ordinal0 [0x00A51F48+1056584]
+	Ordinal0 [0x00A701AA+1180074]
+	Ordinal0 [0x00A6C0C5+1163461]
+	Ordinal0 [0x00A6990F+1153295]
+	Ordinal0 [0x00A9994F+1349967]
+	Ordinal0 [0x00A995BA+1349050]
+	Ordinal0 [0x00A954BB+1332411]
+	Ordinal0 [0x00A71D14+1187092]
+	Ordinal0 [0x00A72B79+1190777]
+	GetHandleVerifier [0x00D30C56+1501718]
+	GetHandleVerifier [0x00DDE97F+2213695]
+	GetHandleVerifier [0x00C38C92+485970]
+	GetHandleVerifier [0x00C37D59+482073]
+	Ordinal0 [0x00B5471D+2115357]
+	Ordinal0 [0x00B58678+2131576]
+	Ordinal0 [0x00B587B2+2131890]
+	Ordinal0 [0x00B61971+2169201]
+	BaseThreadInitThunk [0x76FEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]
+
+	at Academy.E2EProject.validatePageTitle.initializeBrowser(validatePageTitle.java:26)
+]]></failure>
+  </testcase>
+  <testcase name="valSectitle" classname="Academy.E2EProject.validatePageTitle" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-40EPTFGM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BB5843+2512963]&#10;	Ordinal0 [0x00B4EED1+2092753]&#10;	Ordinal0 [0x00A51F48+1056584]&#10;	Ordinal0 [0x00A701AA+1180074]&#10;	Ordinal0 [0x00A6C0C5+1163461]&#10;	Ordinal0 [0x00A6990F+1153295]&#10;	Ordinal0 [0x00A9994F+1349967]&#10;	Ordinal0 [0x00A995BA+1349050]&#10;	Ordinal0 [0x00A954BB+1332411]&#10;	Ordinal0 [0x00A71D14+1187092]&#10;	Ordinal0 [0x00A72B79+1190777]&#10;	GetHandleVerifier [0x00D30C56+1501718]&#10;	GetHandleVerifier [0x00DDE97F+2213695]&#10;	GetHandleVerifier [0x00C38C92+485970]&#10;	GetHandleVerifier [0x00C37D59+482073]&#10;	Ordinal0 [0x00B5471D+2115357]&#10;	Ordinal0 [0x00B58678+2131576]&#10;	Ordinal0 [0x00B587B2+2131890]&#10;	Ordinal0 [0x00B61971+2169201]&#10;	BaseThreadInitThunk [0x76FEFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x777B7A6E+238]&#10;"/>
+  </testcase>
+  <testcase name="teardown" classname="Academy.E2EProject.validatePageTitle" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
