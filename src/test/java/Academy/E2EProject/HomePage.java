@@ -51,7 +51,6 @@ public class HomePage extends Base{
 		System.out.println("Git Demo Test7");
 		System.out.println("Git Demo Test8");
 		System.out.println("Git Demo Test9");
-		System.out.println("Git Demo Test10");
 		
 	}
 	@DataProvider
